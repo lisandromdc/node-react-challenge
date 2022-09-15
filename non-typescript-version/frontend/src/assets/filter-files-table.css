@@ -1,0 +1,36 @@
+.filter-files-table {
+  padding-left: 1rem;
+  padding-bottom: .5rem;
+}
+.help-msg {
+  color: #aaa;
+  font-style: italic;
+  font-size: .8rem;
+}
+.filtering-file-name {
+  background-color: #ddd;
+  border-radius: 2rem;
+  padding: .25rem .75rem;
+  font-size: .9rem;
+  display: inline-block;
+  color: #666;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  transition: .5s;
+  display: inline-flex;
+  align-items: center;
+}
+.close-btn {
+  opacity: 0;
+  transition: .5s;
+  padding-left: .5rem;
+  padding-right: .25rem;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+.filtering-file-name:hover {
+  border: 1px solid #666;
+}
+.filtering-file-name:hover .close-btn {
+  opacity: 1;
+}

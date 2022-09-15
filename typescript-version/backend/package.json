@@ -1,0 +1,40 @@
+{
+  "name": "node-react-challenge--backend",
+  "version": "1.0.0",
+  "description": "Simple demostration of skills as backend developer",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node build/src/index",
+    "test": "mocha -r ts-node/register test/**/*.ts",
+    "dev": "ts-node-dev src/index.ts",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisandromdc/node-react-challenge.git"
+  },
+  "author": "Lisandro Dalla Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisandromdc/node-react-challenge/issues"
+  },
+  "homepage": "https://github.com/lisandromdc/node-react-challenge#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.3",
+    "@types/cors": "^2.8.12",
+    "@types/csvtojson": "^2.0.0",
+    "@types/express": "^4.17.14",
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "standard": "^17.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express": "^4.18.1"
+  }
+}

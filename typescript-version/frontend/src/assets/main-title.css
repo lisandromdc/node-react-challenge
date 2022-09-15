@@ -1,0 +1,16 @@
+.main-title {
+  background-color: #ff6666;
+  color: white;
+  border: 1px solid #cf8b89;
+  padding: .25rem .25rem;
+  width: 100%;
+  margin-bottom: .5rem;
+  font-weight: 600;
+}
+.file-name {
+  cursor: pointer;
+  transition: .25s;
+}
+.file-name:hover {
+  color: #ff6666;
+}

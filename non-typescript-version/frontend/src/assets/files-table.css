@@ -1,0 +1,11 @@
+.files-table {
+  padding: 0 1.5rem;
+}
+th {
+  border-bottom: 2px solid #212529 !important;
+}
+.loading-sign {
+  font-size: 2rem;
+  color: #666;
+  padding: 3rem;
+}
